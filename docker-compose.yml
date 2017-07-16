@@ -1,0 +1,10 @@
+version: '2'
+services:
+  nginx:
+    container_name: 10academy_nginx
+    build: .
+    restart: always
+    volumes:
+      - ./src:/www
+    ports:
+      - 8080:80
