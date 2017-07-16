@@ -5,9 +5,9 @@
 version: 2
 jobs:
   build:
-#    docker:
-#      # specify the version you desire here
-#      - image: circleci/node:7.10
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:7.10
 
     working_directory: ~/src
 
