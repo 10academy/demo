@@ -17,3 +17,6 @@ zzzzz...
 
 Done finally?!! Phew!
 * Visit your [localhost:8080](http://localhost:8080) to view website
+
+## Contributors
+Manny <manny.acquah@10academy.org>
