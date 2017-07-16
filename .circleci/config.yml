@@ -16,7 +16,7 @@ jobs:
 
       - deploy:
           command: |
-            scp -r src/* ubuntu@demo.10academy.org:/var/www/
+            scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r src/* ubuntu@demo.10academy.org:/var/www/
             curl -X POST --data-urlencode 'payload={"channel": "#activity", "username": "demo-bot", "text": "Demo deployment done."}' https://hooks.slack.com/services/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
 
 
